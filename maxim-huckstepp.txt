@@ -75,27 +75,27 @@ Copy n push your changes.
     35. How often should I commit to github?
             a few times a day
     36. What is the command we would use to push our repo up to github? 
+            git push -u origin 'branch-name'
     37. Walk me through Lambda's git flow. 
+            fork --> clone --> branch --> do work --> add --> commit --> push --> pull request --> merge
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        inline can be on that same line as something else while a block element cannot
     2. What happens when an element is positioned absolutely? 
+            it will always show up in the same place and can overlap other elements
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+            Using flexbox at the container level and width at the element level 
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            block - p, div, section  inline - img, span, br inline-block - button
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+            The box model is how we position and organize elements on a webpage.  
 
 
 
    --> 
 
-   Task 3: Stretch
-Stretch Review questions: 
-1. What is the difference between an inline element and a block element? 
-2. What happens when an element is positioned absolutely? 
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
-5. In your own words, explain the box model. What is the fix for the box model? Stretch Git Tasks
 
  While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
 
